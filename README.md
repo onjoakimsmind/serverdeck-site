@@ -49,5 +49,3 @@ Then open <http://127.0.0.1:8081>. The container runs as the unprivileged
 Dokploy builds `Dockerfile` at the repository root against this repository's
 `main` branch and serves it at `serverdeck.black.ax` on container port 8080,
 behind a Cloudflare-proxied domain with DNS-01 TLS.
-
-<!-- auto-deploy test: 2026-10-26T13:13:29Z -->
